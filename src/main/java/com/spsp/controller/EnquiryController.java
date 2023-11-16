@@ -81,7 +81,7 @@ public class EnquiryController {
 	public void deleteEnquiry(@PathVariable int id)
 	{
 		es.deleteEnquiry(id);
-		System.out.println("deleteEnquiry");
+		System.out.println("hello");
 	}
 	
 	
